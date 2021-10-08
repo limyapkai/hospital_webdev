@@ -1,15 +1,19 @@
 import {initializeApp } from 'firebase/app';
+//import { getAnalytics } from "firebase/analytics";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDTbGQRn-edOFkodgnc_2-VW5WckxAvx9E",
-    authDomain: "democppfiredev1.firebaseapp.com",
-    projectId: "democppfiredev1",
-    storageBucket: "democppfiredev1.appspot.com",
-    messagingSenderId: "121503855921",
-    appId: "1:121503855921:web:8bae8b4d80e05a7bb06c10"
+  apiKey: "AIzaSyDbw58QBWr-i_n_rNGZo-f3XXhqVWVHHdk",
+  authDomain: "hospitalprocurementbt3103.firebaseapp.com",
+  databaseURL: "https://hospitalprocurementbt3103-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "hospitalprocurementbt3103",
+  storageBucket: "hospitalprocurementbt3103.appspot.com",
+  messagingSenderId: "460777037982",
+  appId: "1:460777037982:web:b6288b26db013afa645b8f",
+  measurementId: "G-SFB9TEVJFN"
   };
   
   // Initialize Firebase
   const firebaseApp = initializeApp(firebaseConfig);
+  //const analytics = getAnalytics(app);
   export default firebaseApp
   
