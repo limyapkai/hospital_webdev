@@ -3,7 +3,6 @@ import {initializeApp } from 'firebase/app';
 
 //Yap Kai Edited this page in his branch
 //Yap Kai added a new Branch called yapkaiV1
-//lanjiao
 const firebaseConfig = {
   apiKey: "AIzaSyB1OVt7lf1oH3g1fO6rqsKVXU8tfK0jeQg",
   authDomain: "bt3103project-b69fb.firebaseapp.com",
