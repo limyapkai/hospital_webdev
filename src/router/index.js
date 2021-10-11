@@ -3,6 +3,7 @@ import Home from '@/views/Home.vue'
 import About from '@/views/About.vue'
 import OnlyProfit from '@/views/OnlyProfit.vue'
 import Zhijingpage from '@/views/Zhijingpage.vue'
+import Zenonpage from '@/views/zenonpage.vue'
 
 const routes = [
 
@@ -25,6 +26,11 @@ const routes = [
         path:'/zhijingpage',
         name: '(Zhi Jing)',
         component: Zhijingpage
+    },
+    {
+        path:'/zenonpage',
+        name: '(Zenon)',
+        component: Zenonpage
     },
 ]
 

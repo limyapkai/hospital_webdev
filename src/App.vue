@@ -11,7 +11,8 @@
     <router-link to = "/">DashBoard (Zenon)</router-link> |
     <router-link to = "/about">DashBoard (Wei Qian)</router-link> | 
     <router-link to = "/profit">Login (Zhi Jing)</router-link> |
-    <router-link to = "/zhijingpage">Zhijing gonna work on this</router-link>
+    <router-link to = "/zhijingpage">Zhijing gonna work on this</router-link> |
+    <router-link to = "/zenonpage">zenon gonna work on this</router-link>
   </div>
   <p> Displaying from App.vue </p>
   <router-view/>
