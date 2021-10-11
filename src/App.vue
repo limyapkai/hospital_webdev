@@ -8,9 +8,9 @@
   -->
 
   <div id ="nav">
-    <router-link to = "/">Home</router-link> |
-    <router-link to = "/about">About</router-link> | 
-    <router-link to = "/profit">Profits</router-link>
+    <router-link to = "/">DashBoard (Zenon)</router-link> |
+    <router-link to = "/about">DashBoard (Wei Qian)</router-link> | 
+    <router-link to = "/profit">Login (Zhi Jing)</router-link>
   </div>
   <p> Displaying from App.vue </p>
   <router-view/>

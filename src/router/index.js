@@ -7,17 +7,17 @@ const routes = [
 
     {
         path: '/',
-        name:'Home',
+        name:'DashBoard (Zenon)',
         component: Home
     },
     {
         path: '/about',
-        name:'About',
+        name:'DashBoard (Wei Qian)',
         component: About
     },
     {
         path:'/profit',
-        name: 'OnlyProfit',
+        name: 'Login (Zhi Jing)',
         component: OnlyProfit
     }
 ]
