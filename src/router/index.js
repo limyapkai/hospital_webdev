@@ -2,6 +2,7 @@ import { createRouter, createWebHistory} from 'vue-router'
 import Home from '@/views/Home.vue'
 import About from '@/views/About.vue'
 import OnlyProfit from '@/views/OnlyProfit.vue'
+import Zhijingpage from '@/views/Zhijingpage.vue'
 
 const routes = [
 
@@ -19,7 +20,12 @@ const routes = [
         path:'/profit',
         name: 'Login (Zhi Jing)',
         component: OnlyProfit
-    }
+    },
+    {
+        path:'/zhijingpage',
+        name: '(Zhi Jing)',
+        component: Zhijingpage
+    },
 ]
 
 const router = createRouter({

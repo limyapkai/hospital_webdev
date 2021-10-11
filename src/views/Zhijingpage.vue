@@ -1,7 +1,6 @@
 <template>
-  <h3>This is an ABout Page</h3>
-  <h2>Welcome to CPkakakaP</h2>
-  <h3>CPP Description: XXX </h3>
+  <h3>This is the page im working on</h3>
+
 </template>
 
 <script>
