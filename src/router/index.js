@@ -31,7 +31,7 @@ const routes = [
         path:'/zenonpage',
         name: '(Zenon)',
         component: Zenonpage
-    },
+    }
 ]
 
 const router = createRouter({
