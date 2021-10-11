@@ -19,7 +19,7 @@ const routes = [
         path:'/profit',
         name: 'Login (Zhi Jing)',
         component: OnlyProfit
-    }
+    },
 ]
 
 const router = createRouter({
